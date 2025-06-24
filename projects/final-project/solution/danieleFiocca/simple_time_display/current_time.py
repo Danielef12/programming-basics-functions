@@ -2,19 +2,19 @@ from datetime import datetime
 
 
 def current_date_time():
-    return datetime.now().strftime('%d/%m/%Y %H:%M:%S')
+    return datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 
 def day_of_the_week():
-    return datetime.now().strftime('%A')
+    return datetime.now().strftime("%A")
 
 
 def day_of_the_year():
-    return datetime.now().strftime('%j')
+    return datetime.now().strftime("%j")
 
 
 def week_number():
-    return datetime.now().strftime('%W')
+    return datetime.now().strftime("%W")
 
 
 def show_date_time():
